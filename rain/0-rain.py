@@ -6,7 +6,6 @@ def rain(walls):
     n = len(walls)
     if n == 0:
         return 0
-
     left = 0 
     right = 0
     left_max = 0
