@@ -1,5 +1,8 @@
 #!/usr/bin/python3
+
+
 def rain(walls):
+
     n = len(walls)
     if n == 0:
         return 0
