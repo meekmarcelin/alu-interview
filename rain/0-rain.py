@@ -9,13 +9,13 @@ def rain(walls):
 
     left = 0 
     right = 0
-    left_side = 0
-    right_side = 0
+    left_max = 0
+    right_max = 0
     water = 0
 
     while left < right:
         if walls[left] < walls[right]:
-            if walls[left] >= left_side:
+            if walls[left] >= left_max:
                 left_max = walls[left]
             else:
                 water += left_side - walls[left]
