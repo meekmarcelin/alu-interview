@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+""" Rain trap """
 
 
 def rain(walls):
